@@ -1,0 +1,28 @@
+.form-alert{
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid;
+	margin: 0 0 15px 0;
+	text-align: center;
+	width: 360px;
+	color: #FFF;
+}
+	.form-alert.alert-error{
+		background-color: #DF4238;
+	}
+	.form-alert.alert-success{
+		background-color: #50A758;
+	}
+.form-input-alert{
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+	.form-input-alert.top-margin{
+		margin-top: 5px;
+	}
+	.form-input-alert .fa{
+		color: #DF4238;
+	}
+input,textarea{
+	-webkit-appearance: none;
+}
